@@ -1,3 +1,4 @@
+cd "%~dp0"
 if exist build (
    rmdir /s/q build
 )
