@@ -4,7 +4,7 @@ cmake_minimum_required(VERSION 3.11)
 # 项目信息
 project(CppPractice)
 
-FILE(GLOB MyCSources src/test/*.cpp)
+FILE(GLOB MyCSources src/unittest/*.cpp)
 
 # 指定生成目标
 add_executable(${PROJECT_NAME} ${MyCSources})
